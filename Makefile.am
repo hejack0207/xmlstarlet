@@ -60,11 +60,11 @@ src/xml.o : version.h
 include examples/tests.mk
 
 # building executable
-bin_PROGRAMS = xml
+bin_PROGRAMS = xmlstarlet
 
 include src/sources.mk
-xml_SOURCES += version.h
-nodist_xml_SOURCES = $(generated_usage_sources)
+xmlstarlet_SOURCES += version.h
+nodist_xmlstarlet_SOURCES = $(generated_usage_sources)
 EXTRA_DIST += $(usage_texts) usage2c.awk
 
 .txt.c:

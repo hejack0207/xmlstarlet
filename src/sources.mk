@@ -28,7 +28,7 @@ src/trans-usage.c\
 src/unescape-usage.c\
 src/validate-usage.c
 
-xml_SOURCES =\
+xmlstarlet_SOURCES =\
 src/escape.h\
 src/trans.c\
 src/trans.h\
