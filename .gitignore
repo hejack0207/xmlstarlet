@@ -1,0 +1,11 @@
+Makefile
+autom4te.cache/
+config.h
+config.h.in~
+config.log
+config.status
+solaris/package/sol8-sparc/pkginfo
+solaris/package/sol9-sparc/pkginfo
+src/.deps/
+stamp-h1
+xmlstarlet.spec
