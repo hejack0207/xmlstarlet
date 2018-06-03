@@ -26,3 +26,4 @@ src/validate-usage.c
 src/*.o
 version.h
 xmlstarlet
+aclocal.m4

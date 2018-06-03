@@ -1,5 +1,5 @@
 AC_PREREQ([2.62])
-AC_INIT([XMLStarlet], [m4_esyscmd_s([git describe --tags --dirty])],
+AC_INIT([XMLStarlet], [0.1.1],
         [http://sourceforge.net/projects/xmlstar/support],
         [],
         [http://xmlstar.sourceforge.net/])
