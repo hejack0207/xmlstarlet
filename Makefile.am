@@ -7,7 +7,7 @@ if GCC
 AM_CFLAGS = -Wall -pedantic
 endif
 
-GIT_DESCRIBE = git describe --tags --dirty
+GIT_DESCRIBE = git describe --tags --always
 
 # TODO: figure out why log removal is needed and/or make it completely automatic
 dist-hook:

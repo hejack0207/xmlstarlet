@@ -544,7 +544,7 @@ WIN32_DIST = README TODO Copyright COPYING AUTHORS ChangeLog INSTALL NEWS xml.ex
 WIN32_doc_DIST = $(generated_docs) doc/html.css
 ACLOCAL_AMFLAGS = -I m4
 @GCC_TRUE@AM_CFLAGS = -Wall -pedantic
-GIT_DESCRIBE = git describe --tags --dirty
+GIT_DESCRIBE = git describe --tags --always
 AM_TESTS_ENVIRONMENT = abs_builddir=$(abs_builddir) \
 EXEEXT=$(EXEEXT) SED=$(SED) AWK=$(AWK) SHELL=$(SHELL); \
 export abs_buildir; export EXEEXT; export SED; export AWK; export SHELL;
