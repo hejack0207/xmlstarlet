@@ -27,3 +27,4 @@ src/*.o
 version.h
 xmlstarlet
 aclocal.m4
+Makefile.in
